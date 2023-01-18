@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   min-height: 100vh;
+  padding: 0 1rem;
 }
 header {
   display: flex;
@@ -13,7 +14,7 @@ h1 {
   margin-right: auto;
 }
 
-form {
+form.search {
   border-radius: 2rem;
   border: solid 2px gray;
   display: flex;
@@ -26,12 +27,17 @@ input[type="text"] {
   border: none;
   border-radius: 2rem 0 0 2rem;
 }
+input[type="text"]:focus {
+  border: none;
+}
+
 input[type="submit"] {
   -webkit-appearance: none;
   border: none;
   background-color: gray;
   height: 100%;
   border-radius: 0 2rem 2rem 0;
+  padding-left: 0.5rem;
 }
 
 main {
@@ -40,4 +46,5 @@ main {
 
 footer {
   height: 5vh;
+  text-align: center;
 }
