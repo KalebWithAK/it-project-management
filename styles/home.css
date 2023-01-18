@@ -1,0 +1,17 @@
+
+
+section.article-preview {
+  width: 15rem;
+  border: solid 2px gray;
+  border-radius: 2rem;
+  padding: 0 1rem 1rem;
+}
+
+section.article-preview p {
+  max-height: 5.5rem;
+  overflow-y: hidden;
+}
+
+section.article-preview a {
+
+}

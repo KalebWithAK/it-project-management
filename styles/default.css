@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+form {
+  border-radius: 2rem;
+  border: solid 2px gray;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 2rem 0 0 2rem;
+}
+input[type="submit"] {
+  -webkit-appearance: none;
+  border: none;
+  background-color: gray;
+  height: 100%;
+  border-radius: 0 2rem 2rem 0;
+}
+
+main {
+  min-height: 85vh;
+}
+
+footer {
+  height: 5vh;
+}
