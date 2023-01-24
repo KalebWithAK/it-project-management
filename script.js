@@ -57,8 +57,6 @@ function searchArticles(search_string, articles) {
   if (!results.length) {
     results = articles.filter(article => article.content.toLowerCase().includes(search_string))
   }
-  
-  console.log({ search_string, results })
 
   // display results or no results found
   const h3 = document.querySelector("h3.search-results")
