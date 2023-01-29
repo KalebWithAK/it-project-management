@@ -39,10 +39,12 @@ function appendPreview(article, container) {
     <h3>${article.title}</h3>
     <img src="./images/${article.img}">
     <p>${article.content}</p>
-    <a href="${article.url}" target="_blank">Read more</a>
+    <a href="${article.url}">Read more</a>
     <p>Author: ${article.author}</p>
   </section>
   `
+  // not doing _target='blank' bc new tabs messes up accessibility
+  // user can navigate to homepage and dropdown menu to any article based on category
 
   container.append(section)
 }
