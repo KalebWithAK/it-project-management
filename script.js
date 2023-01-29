@@ -1,8 +1,6 @@
 const url = "json/articles.json"
 let articles = []
 
-
-
 const all_articles = document.querySelector("div.all-articles")
 const homepage = document.querySelector("span.homepage-flag") // only add previews on homepage
 
@@ -36,8 +34,10 @@ function appendPreview(article, container) {
   section.className = "article-preview"
 
   section.innerHTML = `
-    <h3>${article.title}</h3>
-    <img src="./images/${article.img}">
+    <a href="${article.url}">
+      <h3>${article.title}</h3>
+      <img src="./images/${article.img}">
+    </a>
     <p>${article.content}</p>
     <a href="${article.url}">Read more</a>
     <p class="author">By: ${article.author}</p>
