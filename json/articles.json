@@ -6,12 +6,19 @@
     "author": "Kaleb Dean",
     "url": "/it-project-management/pages/12-agile-principles.html"
   },
-
   {
     "title": "When to use or not use Agile",
     "img": "Waterfall-VS-Agile.jpg",
     "content": "This article will go over when to use or not use Agile methodologies.",
     "author": "Daniel Cisneros Siliezar",
     "url": "/it-project-management/pages/use-agile.html"
+  }
+
+  {
+    "title": "Agile Vs",
+    "img": "Agile-vs-Waterfall-infographic",
+    "content": "An article about how to choose between Waterfall and Agile",
+    "author": "Irzem Ahmed",
+    "url": "/it-project-management/pages/agile-vs-waterfall.html"
   }
 ]
