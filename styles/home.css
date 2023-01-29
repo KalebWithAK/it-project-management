@@ -1,5 +1,5 @@
 section.article-preview {
-  width: 15rem;
+  width: 18rem;
   height: 25rem;
   border: solid 2px gray;
   border-radius: 20px;
@@ -7,17 +7,26 @@ section.article-preview {
   position: relatvie;
 }
 
+section.article-preview h3 {
+  font-size: 22px;
+  height: 3rem;
+  border: solid red 1px;
+}
+
 section.article-preview img {
-  height: 6rem;
+  height: 7rem;
+  text-align: center;
 }
 
 section.article-preview p {
-  max-height: 5.75rem;
+  height: 4.5rem;
   overflow-y: hidden;
   margin-bottom: 2rem;
+
+  border: solid red 1px;
 }
 
-section.article-preview p.ellipsis {
-  position: absolute;
-  top: 22.5rem;
+section.article-preview p.author {
+  height: fit-content;
+  border: solid blue 1px;
 }

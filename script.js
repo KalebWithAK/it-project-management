@@ -40,7 +40,7 @@ function appendPreview(article, container) {
     <img src="./images/${article.img}">
     <p>${article.content}</p>
     <a href="${article.url}">Read more</a>
-    <p>Author: ${article.author}</p>
+    <p class="author">By: ${article.author}</p>
   </section>
   `
   // not doing _target='blank' bc new tabs messes up accessibility

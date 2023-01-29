@@ -3,5 +3,6 @@
   "img": "",
   "content": "",
   "author": "",
-  "url": "/it-project-management/pages/..."
+  "url": "/it-project-management/pages/{article_filename.html}",
+  "keywords": [""]
 }

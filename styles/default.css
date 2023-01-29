@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
   font-size: 1.25rem;
   min-height: 100vh;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 header {
   display: flex;
@@ -45,12 +45,8 @@ main {
 }
 
 div.search-results, div.all-articles {
-  display: flex;
-  gap: 1rem;
-}
-
-section.article_card {
-  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 footer {
