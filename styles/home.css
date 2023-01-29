@@ -10,7 +10,6 @@ section.article-preview {
 section.article-preview h3 {
   font-size: 22px;
   height: 3rem;
-  border: solid red 1px;
 }
 
 section.article-preview img {
@@ -22,11 +21,8 @@ section.article-preview p {
   height: 4.5rem;
   overflow-y: hidden;
   margin-bottom: 2rem;
-
-  border: solid red 1px;
 }
 
 section.article-preview p.author {
   height: fit-content;
-  border: solid blue 1px;
 }
