@@ -21,6 +21,7 @@ section.article-preview p {
   height: 4.5rem;
   overflow: hidden;
   margin-bottom: 2rem;
+  overflow-x: hidden;
 }
 
 section.article-preview p.author {
