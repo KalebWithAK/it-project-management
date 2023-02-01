@@ -19,7 +19,7 @@ section.article-preview img {
 
 section.article-preview p {
   height: 4.5rem;
-  overflow-y: hidden;
+  overflow: hidden;
   margin-bottom: 2rem;
 }
 
