@@ -22,6 +22,7 @@ section.article-preview p {
   overflow: hidden;
   margin-bottom: 2rem;
   overflow-x: hidden;
+  max-width: 25rem;
 }
 
 section.article-preview p.author {
