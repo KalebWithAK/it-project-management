@@ -5,6 +5,10 @@
   --purple: #777180;
 }
 
+.font-2rem {
+  font-size: 2rem;
+}
+
 body {
   font-family: "Roboto";
   font-size: 1.25rem;
@@ -87,9 +91,18 @@ div.search-results, div.all-articles {
 }
 
 footer {
-  display: grid;
-  margin: 1rem;
+  background-color: var(--ivory);
 }
 
-footer ul {
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  color: var(--navy-blue);
+  padding: 1rem;
 }
