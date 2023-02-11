@@ -6,10 +6,10 @@ const homepage = document.querySelector("span.homepage-flag") // only add previe
 
 const form = document.querySelector("form")
 const search_input = document.querySelector("input.search")
+
 const button_close_search = document.querySelector('button.close-search-results')
 button_close_search.addEventListener("click", (e => closeSearchResults(e)))
 button_close_search.classList.add('hidden')
-console.log(button_close_search)
 
 form.onsubmit = (e) => {
   e.preventDefault() // don't reload page
