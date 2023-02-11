@@ -56,14 +56,17 @@ form.search {
 
 input[type="text"] {
   -webkit-appearance: none;
+  width: 5rem;
   border: none;
   border-bottom: solid 1px var(--blue);
   background: var(--ivory);
   color: white;
+  transition: ease-in-out 0.5s;
 }
 input[type="text"]:focus {
+  width: 10rem;
   outline: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
 }
 
