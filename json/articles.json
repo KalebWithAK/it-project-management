@@ -38,5 +38,13 @@
     "author": "Kaleb Dean",
     "url": "/it-project-management/pages/agile-scope-management-importance.html",
     "keywords": ["sprint1", "agile", "scope"]
+  },
+  {
+    "title": "Scope Definition and What is a Project Scope Statement",
+    "img": "project-scope-management.jpg",
+    "content": "In Agile project management, it is important to be as flexible as possible and to define a scope for the project.",
+    "author": "Daniel Cisneros Siliezar",
+    "url": "/it-project-management/pages/scope-definition.html",
+    "keywords": ["sprint1", "agile", "scope"]
   }
 ]
