@@ -6,6 +6,10 @@ const homepage = document.querySelector("span.homepage-flag") // only add previe
 
 const form = document.querySelector("form")
 const search_input = document.querySelector("input.search")
+const button_close_search = document.querySelector('button.close-search-results')
+button_close_search.addEventListener("click", (e => closeSearchResults(e)))
+button_close_search.classList.add('hidden')
+console.log(button_close_search)
 
 form.onsubmit = (e) => {
   e.preventDefault() // don't reload page
@@ -61,15 +65,27 @@ function searchArticles(search_string, articles) {
   }
 
   // display results or no results found
-  const h3 = document.querySelector("h3.search-results")
+  const h2 = document.querySelector("h2.search-results")
   const container = document.querySelector("div.search-results")
   container.innerHTML = ''
 
   if (results.length) {
-    h3.textContent = `Articles related to "${search_string}"`
+    h2.textContent = `Articles related to "${search_string}"`
     results.forEach(article => appendPreview(article, container))
+    button_close_search.classList.remove('hidden')
   }
   else {
     h3.textContent = `No articles found related to "${search_string}". Please check your spelling and try again.`
   }
+}
+
+function closeSearchResults(e) {
+  e.preventDefault()
+  button_close_search.classList.add('hidden')
+
+  const h2 = document.querySelector("h2.search-results")
+  const container = document.querySelector("div.search-results")
+
+  h2.textContent = ''
+  container.innerHTML = ''
 }

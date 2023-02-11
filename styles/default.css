@@ -9,6 +9,10 @@
   font-size: 2rem;
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   font-family: "Roboto";
   font-size: 1.25rem;
@@ -88,9 +92,21 @@ main {
   padding: 0 0.5rem;
 }
 
-div.search-results, div.all-articles {
+div.all-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+section.search-results {
+  position: relative;
+}
+
+section.search-results button {
+  position: absolute;
+  top: 0;
+  right: 1rem;
 }
 
 footer {
@@ -109,3 +125,4 @@ footer div ul {
   color: var(--navy-blue);
   padding: 1rem;
 }
+
