@@ -46,5 +46,13 @@
     "author": "Daniel Cisneros Siliezar",
     "url": "/it-project-management/pages/scope-definition.html",
     "keywords": ["sprint1", "agile", "scope"]
+  },
+  {
+    "title": "Planning scope management to project managers in Agile",
+    "img": "scope-management.jpg",
+    "content": "Simply put, project scope management is a way of creating outlines that will help create the project's final product.",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/scope-management.html",
+    "keywords": ["sprint1", "agile", "scope"]
   }
 ]
