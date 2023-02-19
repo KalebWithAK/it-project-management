@@ -129,5 +129,18 @@
       "model",
       "report"
     ]
+  },
+  {
+    "title": "Agile and adaptive environments",
+    "img": "four-pillars-of-agile.jpg",
+    "content": "Learn how to create a agile environment as a project manager",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/agile-adaptive-environments.html",
+    "keywords": [
+      "sprint1week2",
+      "agile",
+      "adaptive",
+      "environemnt"
+    ]
   }
 ]
