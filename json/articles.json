@@ -142,5 +142,18 @@
       "adaptive",
       "environemnt"
     ]
+  },
+  {
+    "title": "Project Cost Management in Agile: Basic Principles, Terms, and Concepts",
+    "img": "PCM-Phases.jpg",
+    "content": "Understand what project cost management is and its importance.",
+    "author": "Daniel Cisneros Siliezar",
+    "url": "/it-project-management/pages/project-cost-management-basics.html",
+    "keywords": [
+      "sprint2week1",
+      "agile",
+      "costs",
+      "principles"
+    ]
   }
 ]
