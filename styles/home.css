@@ -5,33 +5,26 @@ main {
 h2 {
   margin-left: 1rem;
 }
-section.article-preview {
+a.article-card {
   width: 18rem;
-  height: 26rem;
+  height: 20rem;
   border: solid 2px var(--navy-blue);
   border-radius: 20px;
-  padding: 0 1rem 1rem;
-  position: relatvie;
+  padding: 0.25rem 1rem;
+  position: relative;
 }
 
-section.article-preview h3 {
+a.article-card h3 {
   font-size: 22px;
   height: 4rem;
 }
 
-section.article-preview img {
+a.article-card img {
   height: 7rem;
   text-align: center;
 }
 
-section.article-preview p {
-  height: 4.5rem;
-  overflow: hidden;
-  margin-bottom: 2rem;
-  overflow-x: hidden;
-  max-width: 25rem;
-}
-
-section.article-preview p.author {
-  height: fit-content;
+a.article-card p {
+  position: absolute;
+  bottom: 0;
 }

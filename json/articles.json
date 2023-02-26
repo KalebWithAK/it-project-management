@@ -116,5 +116,57 @@
       "duration",
       "Estimate"
     ]
+  },
+  {
+    "title": "Planning Schedule Management and its Importance for Agile Project Managers",
+    "img": "planning-schedule-management.png",
+    "content": "As an Agile project manager, it is useful to understand what schedule management is and the process of planning the schedule management throughout the project.",
+    "author": "Daniel Cisneros Siliezar",
+    "url": "/it-project-management/pages/planning-schedule-management.html",
+    "keywords": [
+      "sprint1week2",
+      "planning",
+      "model",
+      "report"
+    ]
+  },
+  {
+    "title": "Agile and adaptive environments",
+    "img": "four-pillars-of-agile.jpg",
+    "content": "Learn how to create a agile environment as a project manager",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/agile-adaptive-environments.html",
+    "keywords": [
+      "sprint1week2",
+      "agile",
+      "adaptive",
+      "environemnt"
+    ]
+  },
+  {
+    "title": "Project Cost Management in Agile: Basic Principles, Terms, and Concepts",
+    "img": "PCM-Phases.jpg",
+    "content": "Understand what project cost management is and its importance.",
+    "author": "Daniel Cisneros Siliezar",
+    "url": "/it-project-management/pages/project-cost-management-basics.html",
+    "keywords": [
+      "sprint2week1",
+      "agile",
+      "costs",
+      "principles"
+    ]
+  },
+  {
+    "title": "Planning Cost Management",
+    "img": "cost-management.png",
+    "content": "Learn how to create a cost management plan",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/planning-cost-management.html",
+    "keywords": [
+      "sprint1week2",
+      "planning",
+      "cost",
+      "management"
+    ]
   }
 ]

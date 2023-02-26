@@ -26,7 +26,6 @@ header {
   height: 10vh;
   background: var(--ivory);
   padding: 2rem 1rem 1rem;
-  border-radius: 0 0 16px 16px;
   color: white;
 }
 header a, header a:visited {
@@ -126,3 +125,15 @@ footer div ul {
   padding: 1rem;
 }
 
+
+.dark {
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+
+.dark a {
+  color: var(--blue);
+}
+.dark a:hover {
+  color: var(--navy-blue);
+}

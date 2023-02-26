@@ -2,7 +2,7 @@ const url = "json/articles.json"
 let articles = []
 
 const all_articles = document.querySelector("div.all-articles")
-const homepage = document.querySelector("span.homepage-flag") // only add previews on homepage
+const homepage = document.querySelector("span.homepage-flag") // only add cards on homepage
 
 const form = document.querySelector("form")
 const search_input = document.querySelector("input.search")
@@ -28,29 +28,24 @@ fetch(url)
 
   if (homepage) {
     articles.forEach(article => {
-      appendPreview(article, all_articles)
+      appendCard(article, all_articles)
     })
   }
 })
 
-function appendPreview(article, container) {
-  const section = document.createElement("section")
-  section.className = "article-preview"
+function appendCard(article, container) {
+  const card = document.createElement("a")
+  card.className = "article-card"
 
-  section.innerHTML = `
-    <a href="${article.url}">
-      <h3>${article.title}</h3>
-      <img src="./images/${article.img}">
-    </a>
-    <p>${article.content}</p>
-    <a href="${article.url}">Read more</a>
+  card.innerHTML = `
+    <img src="./images/${article.img}">
+    <h3>${article.title}</h3>
     <p class="author">By: ${article.author}</p>
-  </section>
   `
-  // not doing _target='blank' bc new tabs messes up accessibility
-  // user can navigate to homepage and dropdown menu to any article based on category
+  
+  // TODO: User can navigate to homepage and dropdown menu to any article based on category
 
-  container.append(section)
+  container.append(card)
 }
 
 function searchArticles(search_string, articles) {
@@ -71,7 +66,7 @@ function searchArticles(search_string, articles) {
 
   if (results.length) {
     h2.textContent = `Articles related to "${search_string}"`
-    results.forEach(article => appendPreview(article, container))
+    results.forEach(article => appendCard(article, container))
     button_close_search.classList.remove('hidden')
   }
   else {
