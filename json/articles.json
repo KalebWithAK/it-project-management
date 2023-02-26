@@ -155,5 +155,18 @@
       "costs",
       "principles"
     ]
+  },
+  {
+    "title": "Planning Cost Management",
+    "img": "cost-management.png",
+    "content": "Learn how to create a cost management plan",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/planning-cost-management.html",
+    "keywords": [
+      "sprint1week2",
+      "planning",
+      "cost",
+      "management"
+    ]
   }
 ]
