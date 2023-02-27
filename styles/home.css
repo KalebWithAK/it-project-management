@@ -5,7 +5,7 @@ main {
 h2 {
   margin-left: 1rem;
 }
-a.article-card {
+div.article-card {
   width: 18rem;
   height: 20rem;
   border: solid 2px var(--navy-blue);
@@ -14,17 +14,17 @@ a.article-card {
   position: relative;
 }
 
-a.article-card h3 {
+div.article-card h3 {
   font-size: 22px;
   height: 4rem;
 }
 
-a.article-card img {
+div.article-card img {
   height: 7rem;
   text-align: center;
 }
 
-a.article-card p {
+div.article-card p {
   position: absolute;
   bottom: 0;
 }
