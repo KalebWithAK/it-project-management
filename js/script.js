@@ -35,6 +35,7 @@ fetch(url)
 
 function appendCard(article, container) {
   const card = document.createElement("a")
+  card.setAttribute(href, article.url)
   card.className = "article-card"
 
   card.innerHTML = `
@@ -42,7 +43,7 @@ function appendCard(article, container) {
     <h3>${article.title}</h3>
     <p class="author">By: ${article.author}</p>
   `
-  
+
   // TODO: User can navigate to homepage and dropdown menu to any article based on category
 
   container.append(card)

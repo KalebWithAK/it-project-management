@@ -1,0 +1,22 @@
+{
+  "name": "it-project-management",
+  "version": "1.0.0",
+  "description": "Blog for IT project managers to learn about project managament applied with Agile methodology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalebWithAK/it-project-management.git"
+  },
+  "keywords": [
+    "Agile"
+  ],
+  "author": "Kaleb Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalebWithAK/it-project-management/issues"
+  },
+  "homepage": "https://github.com/KalebWithAK/it-project-management#readme"
+}
