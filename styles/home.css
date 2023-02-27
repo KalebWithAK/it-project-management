@@ -12,6 +12,7 @@ div.article-card {
   border-radius: 20px;
   padding: 0.25rem 1rem;
   position: relative;
+  overflow-x: hidden;
 }
 
 div.article-card h3 {
