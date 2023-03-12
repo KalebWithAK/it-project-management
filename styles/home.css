@@ -29,3 +29,9 @@ div.article-card p {
   position: absolute;
   bottom: 0;
 }
+
+@media screen and (max-width: 800px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
