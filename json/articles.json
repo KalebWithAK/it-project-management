@@ -202,5 +202,17 @@
       "quality",
       "importance"
   ]
+  },
+  {
+    "title": "Quality Management",
+    "img": "quality-management.png",
+    "content": "Learn how to create a effective quality management team",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/quality-management.html",
+    "keywords": [
+      "sprint2week2",
+      "quality",
+      "management"
+    ]
   }
 ]
