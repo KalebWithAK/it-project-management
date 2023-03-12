@@ -189,5 +189,18 @@
       "costs",
       "principles"
     ]
+  },
+  {
+    "title": "Project Quality Management in Agile: The Basics and How it Relates to IT",
+    "img": "pqm-diagram.jpeg",
+    "content": "Know what project quality management is, its importance, and how it relates to IT",
+    "author": "Daniel Cisneros Siliezar",
+    "url": "/it-project-management/pages/project-quality-management-meaning.html",
+    "keywords": [
+      "sprint2week2",
+      "agile",
+      "quality",
+      "importance"
+  ]
   }
 ]
