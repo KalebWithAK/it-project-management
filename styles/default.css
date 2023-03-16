@@ -91,13 +91,6 @@ main {
   padding: 0 0.5rem;
 }
 
-div.all-articles {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  padding: 0 1rem 1rem;
-}
-
 section.search-results {
   position: relative;
 }
@@ -139,6 +132,30 @@ footer div ul {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: fit-content;
+  }
+
+  header {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+  }
+
+  header img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+  }
+
+  footer .font-2rem {
+    font-size: 1rem;
+  }
+
   input[type="text"]:hover {
     width: 6rem;
   }
