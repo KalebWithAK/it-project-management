@@ -30,7 +30,38 @@ div.article-card p {
   bottom: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: fit-content;
+    border: solid red 1px;
+  }
+
+  header {
+    width: 100vw;
+    border: solid red 1px;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+  }
+
+  header img {
+    border: solid red 1px;
+    width: 200px;
+    height: auto;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  footer .font-2rem {
+    font-size: 1rem;
+  }
+  
   section {
     grid-template-columns: 1fr;
   }
