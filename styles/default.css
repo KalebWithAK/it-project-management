@@ -138,8 +138,8 @@ footer div ul {
   color: var(--navy-blue);
 }
 
-@media screen and (max-width: 800px) {
-  body * {
-    max-width: 100vw;
+@media screen and (max-width: 600px) {
+  input[type="text"]:hover {
+    width: 6rem;
   }
 }
