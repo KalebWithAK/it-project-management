@@ -6,7 +6,7 @@ h2 {
   margin-left: 1rem;
 }
 
-section.all-articles {
+div.all-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
@@ -45,9 +45,8 @@ div.article-card p {
     font-size: 1.25rem;
   }
   
-  section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
+  div.all-articles {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 }
