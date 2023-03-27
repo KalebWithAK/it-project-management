@@ -20,18 +20,18 @@ form.onsubmit = (e) => {
 
 // load article data from json
 fetch(url)
-.then(res => res.json())
-.then(data => {
-  articles = data
+  .then(res => res.json())
+  .then(data => {
+    articles = data
 
-  all_articles.innerHTML = ''
+    all_articles.innerHTML = ''
 
-  if (homepage) {
-    articles.forEach(article => {
-      appendCard(article, all_articles)
-    })
-  }
-})
+    if (homepage) {
+      articles.forEach(article => {
+        appendCard(article, all_articles)
+      })
+    }
+  })
 
 function appendCard(article, container) {
   const card = document.createElement("div")
@@ -86,3 +86,29 @@ function closeSearchResults(e) {
   h2.textContent = ''
   container.innerHTML = ''
 }
+
+//DARK MODE
+function toggleColors() {
+  const body = document.body;
+  const divs = document.querySelectorAll("div");
+
+  if (body.classList.contains("dark")) {
+    body.classList.remove("dark");
+    divs.forEach((div) => {
+      div.classList.remove("dark");
+    });
+  } else {
+    body.classList.add("dark");
+    divs.forEach((div) => {
+      div.classList.add("dark");
+    });
+  }
+}
+
+const icon = document.getElementById("icon");
+
+icon.addEventListener("click", () => {
+  icon.classList.toggle("fa-moon");
+  icon.classList.toggle("fa-sun");
+  toggleColors();
+});
