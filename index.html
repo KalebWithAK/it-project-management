@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +13,17 @@
 
   <script defer src="./js/script.js"></script>
   <script defer src="https://kit.fontawesome.com/bb88c945f0.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
   <header>
     <h1>
       <a href="/it-project-management/index.html"><img src="./images/logo.png" width="400" height="400"></a>
     </h1>
+
+    <label for="toggle-switch">Toggle Switch:</label>
+    <input type="checkbox" id="toggle-switch">
 
     <form class="search">
       <input class="search" type="text" placeholder="search">
@@ -25,13 +31,14 @@
     </form>
   </header>
 
-  
+
 
   <main>
     <section class="search-results">
-      <h2 class="search-results"></h3>
-      <button class='close-search-results'>X</button>
-      <div class="search-results"></div>
+      <h2 class="search-results">
+        </h3>
+        <button class='close-search-results'>X</button>
+        <div class="search-results"></div>
     </section>
 
     <section class="all-articles">
@@ -54,7 +61,32 @@
         <li><a><i class="fa-brands fa-facebook font-2rem"></i></a></li>
       </ul>-->
     </div>
+
+    <script>
+      const toggleSwitch = document.getElementById("toggle-switch");
+      const body = document.body;
+      const divs = document.querySelectorAll('div');
+
+      toggleSwitch.addEventListener("change", () => {
+        if (toggleSwitch.checked) {
+          body.style.backgroundColor = "black";
+          body.style.color = "white";
+          divs.forEach(div => {
+            div.style.backgroundColor = "black";
+            div.style.color = "white";
+          });
+        } else {
+          body.style.backgroundColor = "";
+          body.style.color = "";
+          divs.forEach(div => {
+            div.style.backgroundColor = "";
+            div.style.color = "";
+          });
+        }
+      });
+    </script>
   </footer>
 
 </body>
+
 </html>
