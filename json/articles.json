@@ -332,5 +332,13 @@
     "author": "Daniel Cisneros Siliezar",
     "url": "/it-project-management/pages/project-risk-management-intro.html",
     "keywords": ["sprint4week1", "risk", "overview"]
+  },
+  {
+    "title": "Monitoring Risks",
+    "img": "risk-management.jpg",
+    "content": "",
+    "author": "Shawn Kiruba",
+    "url": "/it-project-management/pages/monitoring-risks.html",
+    "keywords": [ "sprint4week1", "monintoring", "risk"]
   }
 ]
