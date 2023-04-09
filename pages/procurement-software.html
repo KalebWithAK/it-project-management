@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurement software</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles/default.css">
+    <link rel="stylesheet" type="text/css" href="../styles/article.css">
+
+
+    <script defer src="../js/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/bb88c945f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div data-include="../components/header.html"></div>
+    <label for="toggle-switch">Dark Mode:</label>
+    <input type="checkbox" id="toggle-switch">
+
+    <main>
+        <h2>Procurement software</h2>
+
+        <div class="four-pillars-img">
+            <img src="../images/procurement.png" width="700">
+        </div>
+
+        <p><strong>Why do you need to use procurement software in your organization?</strong></p>
+        <p> &emsp;There are many reasons why a company or organization needs software to help them assist in the project procurement process. With a company that is heavy or highly demanded in procurement or just takes a lot of hardware to get the project done, there is a necessary importance to making sure you have the right software to ensure the project can be completed effectively and efficiently. To start off we will be talking about all the kinds of procurement software out there and then we will start listing them out after that you will be able to find software that will fit your project and your company the best. First, let’s talk about the importance of a company having procurement software. The first thing that procurement software helps with is making tasks that are not intensive automatic so that the project team members aren’t wasting time on tasks that can be automated or done by a computer. With this in mind, when there are automated parts in a company then more staff members will be free to do other parts of the project where they can focus on the important parts to make the final project as efficient as possible. With procurement software, your team will also be more efficient by making sure that they can reduce the amount of labor that is being used for the project and there would be fewer purchases that are going towards the resources of people. Other than people, this will also generally reduce the number of cost challenges that might potentially arise.
+        </p>
+
+        <p><strong>How will these types of software assist in a procurement project?</strong></p>
+        <p> &emsp;There are many types of software that will help assist a project team in a procurement project. First, let's talk about why there is so much procurement software out right now. There is a lot of procurement software because the companies that are making this software are trying to make as many as possible that will help reach every type of procurement project to make sure that each one of those projects is able to be successful. There are many different types of procurement projects that target a lot of different kinds of end products, because of this reason their objectives will be much different from a company that is targeting something else for their end product. Due to this reason, these companies will start to search out resources and software that will match and help their target, to make sure that they can make the end product that they and their customers and stakeholders desire.
+
+        </p>
+
+        <div class="four-pillars-img">
+            <img src="../images/procurement-softwares.png" width="700">
+        </div>
+
+        <p><strong>First procurement software: Spend analytics software</strong></p>
+        <p> &emsp;The first type of software that we will be looking at is spending analytics software. This type of software monitors and helps you take care of how much and how well you spend your money in the procurement project for resources. This software will help you monitor things like the data that gets stored when you start making sales and purchases for your project. With this in mind, once the software is able to get a hold of this data, it will be able to give you insights on how to create processes that will help you not only save money but also use that same amount of money in a better way so that you can be more efficient and save lots of money. With this great procurement software, you will be able to make charts and reports for any kind of financial data that you will be spending throughout the project life cycle.
+
+        </p>
+
+        <p><strong>Second procurement software: Electronic sourcing software</strong></p>
+        <p> &emsp;The second type of software procurement is electronic sourcing software. This type of software is also called eSourcing software, with this software you can send requests for many different types of information for the suppliers to handle. With this software, the procurement project team members will be able to communicate well with the suppliers and they will also be able to see all the options of the suppliers that they have. When they know all the types of suppliers they have access to through this software, they will be able to choose the best one that will help them efficiently create their end product.
+
+        </p>
+
+        <p><strong>Third procurement software: Purchase order software</strong></p>
+        <p> &emsp;The third type of software procurement is purchase order software. This type of software in the procurement process is something that will automate the part where you can purchase orders so that you can make the workflow and the spending smooth. With this purchase order software, you will be able to create these digital purchase orders automatically and all the information that is vital to the form will be automatically filled out. This kind of software has only one purpose and that is to make this automation work which in return will make the procurement project more efficient and effective.
+        </p>
+
+        <p><strong>Fourth procurement software: Contract management software</strong></p>
+        <p> &emsp;The fourth procurement software is contract management software. This type of software is also something that helps with the speed of the procurement project. This is software that comes before the purchasing of orders. This software comes in part of the procurement project because when you have to purchase things of high value and resources, you will need to have a contract with the people that you are buying from, like the suppliers and the vendors. When you want to do these purchases, these contracts turn into some kind of a hassle to get done, so in a procurement project, this contract management software will not only help you create and autofill a lot of information on those projects but also help you manage those contracts if you to ever need those again.
+
+        </p>
+        <p><strong>Conclusion</strong>
+        </p>
+        <p> &emsp;In conclusion, if there is something that you are taking away from this blog post, you need to understand that there are many different types of procurement software that can help with your procurement projects, and make sure that you choose the rights ones for your project will be crucial to the success of the project and will be effective in terms of the cost and the end product.
+        </p>
+        <br>
+
+        <p class="text-title"><strong>Resources</strong></p>
+        <p class="text-title"><a
+                href="https://www.controlhub.com/blog/purchasing-software-different-types-of-procurement-software">https://www.controlhub.com/blog/purchasing-software-different-types-of-procurement-software</a>
+        </p>
+
+    </main>
+
+    <div data-include="../components/footer.html"></div>
+    <script src="../js/HTMLInclude.js"></script>
+    <!-- DARK MODE -->
+    <script>
+        const toggleSwitch = document.getElementById("toggle-switch");
+        const body = document.body;
+        const divs = document.querySelectorAll('div');
+
+        toggleSwitch.addEventListener("change", () => {
+            if (toggleSwitch.checked) {
+                body.style.backgroundColor = "black";
+                body.style.color = "white";
+                divs.forEach(div => {
+                    div.style.backgroundColor = "black";
+                    div.style.color = "white";
+                });
+            } else {
+                body.style.backgroundColor = "";
+                body.style.color = "";
+                divs.forEach(div => {
+                    div.style.backgroundColor = "";
+                    div.style.color = "";
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
