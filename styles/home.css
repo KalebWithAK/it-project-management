@@ -24,6 +24,10 @@ div.article-card {
 }
 body.dark div.article-card {
   border: solid white 2px;
+  
+}
+
+body.dark a {
   color: white;
 }
 

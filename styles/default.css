@@ -123,6 +123,7 @@ h1 a {
 
 
 form.search {
+  margin-left: 3rem;
   display: flex;
   align-items: center;
   padding: 0.1rem;
