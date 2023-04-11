@@ -22,8 +22,16 @@
       <a href="/it-project-management/index.html"><img src="./images/logo.png" width="400" height="400"></a>
     </h1>
 
-    <label for="toggle-switch">Dark Mode:</label>
-    <input type="checkbox" id="toggle-switch">
+    <div class='toggle-container'>
+      <p class='light-label'>Light</p>
+
+      <label class='switch'>
+          <input id='toggle-switch' type='checkbox'>
+          <span class='slider'></span>
+      </label>
+
+      <p class='dark-label'>Dark</p>
+    </div>
 
     <form class="search">
       <input class="search" type="text" placeholder="search">
@@ -70,19 +78,11 @@
 
       toggleSwitch.addEventListener("change", () => {
         if (toggleSwitch.checked) {
-          body.style.backgroundColor = "black";
-          body.style.color = "white";
-          divs.forEach(div => {
-            div.style.backgroundColor = "black";
-            div.style.color = "white";
-          });
+          document.body.className = 'dark';
+          document.querySelector('.article-card').classList.add('dark');
         } else {
-          body.style.backgroundColor = "";
-          body.style.color = "";
-          divs.forEach(div => {
-            div.style.backgroundColor = "";
-            div.style.color = "";
-          });
+          document.body.className = '';
+          document.querySelector('.article-card').classList.remove('dark');
         }
       });
     </script>
