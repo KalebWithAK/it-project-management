@@ -30,6 +30,9 @@ body.dark div.article-card {
 body.dark a {
   color: white;
 }
+body.dark div.article-card img {
+  background-color: white;
+}
 
 div.article-card h3 {
   font-size: 22px;
