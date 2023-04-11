@@ -22,6 +22,10 @@ div.article-card {
   position: relative;
   overflow-x: hidden;
 }
+body.dark div.article-card {
+  border: solid white 2px;
+  color: white;
+}
 
 div.article-card h3 {
   font-size: 22px;
@@ -39,8 +43,6 @@ div.article-card p {
 }
 
 @media screen and (max-width: 600px) {
-  
-
   h2 {
     font-size: 1.25rem;
   }
