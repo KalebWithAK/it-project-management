@@ -39,8 +39,6 @@
     </form>
   </header>
 
-
-
   <main>
     <section class="search-results">
       <h2 class="search-results">
@@ -69,23 +67,6 @@
         <li><a><i class="fa-brands fa-facebook font-2rem"></i></a></li>
       </ul>-->
     </div>
-
-    <!-- DARK MODE -->
-    <script>
-      const toggleSwitch = document.getElementById("toggle-switch");
-      const body = document.body;
-      const divs = document.querySelectorAll('div');
-
-      toggleSwitch.addEventListener("change", () => {
-        if (toggleSwitch.checked) {
-          document.body.className = 'dark';
-          document.querySelector('.article-card').classList.add('dark');
-        } else {
-          document.body.className = '';
-          document.querySelector('.article-card').classList.remove('dark');
-        }
-      });
-    </script>
   </footer>
 
 </body>

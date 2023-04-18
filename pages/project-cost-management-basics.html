@@ -19,8 +19,18 @@
 <body>
   <header>
     <h1>
-      <a href="/it-project-management/index.html"><img src="../images/logo.png" width="400" height="400"></a>
-    </h1>
+      <a href="/it-project-management/index.html"><img src="../images/logo.png" width="400" height="400"></a>    </h1>
+
+    <div class='toggle-container'>
+      <p class='light-label'>Light</p>
+
+      <label class='switch'>
+          <input id='toggle-switch' type='checkbox'>
+          <span class='slider'></span>
+      </label>
+
+      <p class='dark-label'>Dark</p>
+    </div>
 
     <form class="search">
       <input class="search" type="text" placeholder="search">
@@ -29,6 +39,13 @@
   </header>
 
   <main>
+    <section class="search-results">
+      <h2 class="search-results">
+        </h3>
+        <button class='close-search-results'>X</button>
+        <div class="search-results"></div>
+    </section>
+    
     <h2>Project Cost Management: Principles, Concepts, and Terms</h2>
     <p>By: Daniel Cisneros Siliezar</p>
     <figure><img src="../images/PCM-Phases.jpg" width="100%">

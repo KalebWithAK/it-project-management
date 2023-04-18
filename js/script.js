@@ -1,6 +1,7 @@
 const url = "json/articles.json"
 let articles = []
 
+
 const all_articles = document.querySelector("div.all-articles")
 const homepage = document.querySelector("span.homepage-flag") // only add cards on homepage
 
@@ -10,6 +11,21 @@ const search_input = document.querySelector("input.search")
 const button_close_search = document.querySelector('button.close-search-results')
 button_close_search.addEventListener("click", (e => closeSearchResults(e)))
 button_close_search.classList.add('hidden')
+
+//DARK MODE
+const toggleSwitch = document.getElementById("toggle-switch");
+alert(toggleSwitch);
+/*const divs = document.querySelector('div');
+
+toggleSwitch.addEventListener("change", () => {
+  if (toggleSwitch.checked) {
+    document.body.className = 'dark';
+    document.querySelector('.article-card').classList.add('dark');
+  } else {
+    document.body.className = '';
+    document.querySelector('.article-card').classList.remove('dark');
+  }
+});*/
 
 form.onsubmit = (e) => {
   e.preventDefault() // don't reload page
@@ -91,29 +107,3 @@ function closeSearchResults(e) {
   h2.textContent = ''
   container.innerHTML = ''
 }
-
-//DARK MODE
-function toggleColors() {
-  const body = document.body;
-  const divs = document.querySelectorAll("div");
-
-  if (body.classList.contains("dark")) {
-    body.classList.remove("dark");
-    divs.forEach((div) => {
-      div.classList.remove("dark");
-    });
-  } else {
-    body.classList.add("dark");
-    divs.forEach((div) => {
-      div.classList.add("dark");
-    });
-  }
-}
-
-const icon = document.getElementById("icon");
-
-icon.addEventListener("click", () => {
-  icon.classList.toggle("fa-moon");
-  icon.classList.toggle("fa-sun");
-  toggleColors();
-});
