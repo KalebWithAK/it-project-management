@@ -98,30 +98,7 @@
 
     <div data-include="../components/footer.html"></div>
     <script src="../js/HTMLInclude.js"></script>
-    <!-- DARK MODE -->
-    <script>
-        const toggleSwitch = document.getElementById("toggle-switch");
-        const body = document.body;
-        const divs = document.querySelectorAll('div');
-
-        toggleSwitch.addEventListener("change", () => {
-            if (toggleSwitch.checked) {
-                body.style.backgroundColor = "black";
-                body.style.color = "white";
-                divs.forEach(div => {
-                    div.style.backgroundColor = "black";
-                    div.style.color = "white";
-                });
-            } else {
-                body.style.backgroundColor = "";
-                body.style.color = "";
-                divs.forEach(div => {
-                    div.style.backgroundColor = "";
-                    div.style.color = "";
-                });
-            }
-        });
-    </script>
+    
 </body>
 
 </html>
