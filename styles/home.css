@@ -13,41 +13,7 @@ div.all-articles {
   padding: 0 1rem 1rem;
 }
 
-div.article-card {
-  width: 18rem;
-  height: 20rem;
-  border: solid 2px var(--navy-blue);
-  border-radius: 20px;
-  padding: 0.25rem 1rem;
-  position: relative;
-  overflow-x: hidden;
-}
-body.dark div.article-card {
-  border: solid white 2px;
-  
-}
 
-body.dark a {
-  color: white;
-}
-body.dark div.article-card img {
-  background-color: white;
-}
-
-div.article-card h3 {
-  font-size: 22px;
-  height: 4rem;
-}
-
-div.article-card img {
-  height: 7rem;
-  text-align: center;
-}
-
-div.article-card p {
-  position: absolute;
-  bottom: 0;
-}
 
 @media screen and (max-width: 600px) {
   h2 {
