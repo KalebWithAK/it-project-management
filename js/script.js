@@ -19,6 +19,8 @@ const toggleSwitch = document.getElementById("toggle-switch");
 
 const divs = document.querySelector('div');
 
+
+
 toggleSwitch.addEventListener("change", () => {
   if (toggleSwitch.checked) {
     document.body.className = 'dark';
@@ -45,12 +47,8 @@ fetch(url)
   .then(res => res.json())
   .then(data => {
     articles = data
-
     if (homepage) {
-      all_articles.innerHTML = ''
-      articles.forEach(article => {
-        appendCard(article, all_articles)
-      })
+      renderArticles('All')
     }
   })
 
@@ -111,4 +109,34 @@ function closeSearchResults(e) {
 
   h3.textContent = ''
   container.innerHTML = ''
+}
+
+function renderArticles(tab) {
+  all_articles.innerHTML = ''
+
+    articles.forEach(article => {
+      if (tab === 'All' || tab === article.author) {
+        appendCard(article, all_articles)
+      }
+    })
+}
+
+// tab select
+if (homepage) {
+  const tab_buttons = document.querySelectorAll('button.tab-select')
+  const h2 = document.querySelector('h2.all-articles')
+
+  tab_buttons.forEach(button => button.onclick = (e) => {
+    //alert(button.textContent)
+    renderArticles(button.textContent)
+    document.querySelector('button.selected').classList.remove('selected')
+    button.classList.add('selected')
+
+    if (button.textContent === 'All') {
+      h2.textContent = 'All Articles'
+    }
+    else {
+      h2.textContent = 'Articles Written by ' + button.textContent
+    }
+  })
 }

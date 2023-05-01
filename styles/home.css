@@ -2,6 +2,48 @@ main {
   min-height: 80vh;
 }
 
+nav.tab-select {
+  width: fit-content;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: auto;
+  gap: 0.1rem;
+}
+
+button.tab-select {
+  margin-top: 1rem;
+  border: solid 2px var(--ivory);
+  background: white;
+  border-radius: 10px 10px 0 0;
+  width: 15rem;
+  height: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: 0.25s ease-in-out;
+  font-size: 1rem;
+}
+button.tab-select.selected {
+  height: 3rem;
+  background: var(--ivory);
+  cursor: auto;
+}
+
+body.dark button.tab-select {
+  color: white;
+  background: rgb(12, 12, 12);
+}
+
+body.dark button.tab-select.selected {
+  color: black;
+  background: var(--ivory);
+}
+
+
 h2 {
   margin-left: 1rem;
 }
