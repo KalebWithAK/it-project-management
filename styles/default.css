@@ -284,8 +284,10 @@ footer div ul {
     margin: 0;
   }
 
-  main nav {
-    display: none;
+  nav {
+    width: 0;
+    height: 0;
+    visibility: hidden;
   }
 
   footer .font-2rem {

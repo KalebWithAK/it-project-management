@@ -4,7 +4,6 @@ main {
 
 nav.tab-select {
   width: fit-content;
-  height: 3rem;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
