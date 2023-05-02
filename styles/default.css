@@ -284,6 +284,10 @@ footer div ul {
     margin: 0;
   }
 
+  main nav {
+    display: none;
+  }
+
   footer .font-2rem {
     font-size: 1rem;
   }
